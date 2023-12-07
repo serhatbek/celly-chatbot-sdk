@@ -1,0 +1,6 @@
+$uniqeid: unique_id();
+$ver: unique_id();
+
+@mixin imageCacheBust($url) {
+  background-image: #{'url("'}#{$url}#{'?v='}#{$ver}#{'")'};
+}
