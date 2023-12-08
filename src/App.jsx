@@ -1,13 +1,15 @@
-import { Container } from './components';
+import { Container, FileDownload } from './components';
+import { downloadItems } from './components/FileDownload/data';
 
 function App() {
   return (
     <div className='wrapper'>
       <Container>
-        <h1>
-          <i className='icon icon-txt-file'></i>
-          Hello
-        </h1>
+        <FileDownload
+          fileUrl={downloadItems.url}
+          fileIcon={downloadItems.icon}
+          fileTitle={downloadItems.text}
+        />
       </Container>
     </div>
   );
