@@ -1,39 +1,41 @@
 .download-file {
   $self: &;
-  width: 328px;
-  border: 8px solid #fff;
+  width: 437px;
+  border: 10.6px solid #fff;
   border-radius: 6px;
 
   > div {
     width: 100%;
     height: 100%;
-    padding: 12px;
+    padding: 16px;
     display: flex;
     align-items: center;
     background-color: #f8f9fb;
+    border-radius: 5.3px;
 
     > span {
       color: #253342;
-      font-size: 14px;
+      font-size: 18px;
+      line-height: 24px;
     }
 
     > figure:first-child {
       margin-right: 10.6px;
     }
 
-    > figure,
-    a {
-      width: 37.3px;
+    > figure {
+      width: 42.6px;
     }
 
     #{$self}__download {
+      width: 37.3px;
       margin-left: auto;
       position: relative;
 
       &::before {
         content: '';
         position: absolute;
-        height: 42.6px;
+        // height: 42.6px;
         width: 1.3px;
         background-color: #e5e9f1;
         left: -10.6px;
