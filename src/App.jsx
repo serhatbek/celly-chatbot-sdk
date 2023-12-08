@@ -4,7 +4,10 @@ function App() {
   return (
     <div className='wrapper'>
       <Container>
-        <h1>Hello</h1>
+        <h1>
+          <i className='icon icon-txt-file'></i>
+          Hello
+        </h1>
       </Container>
     </div>
   );

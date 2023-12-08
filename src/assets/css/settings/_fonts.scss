@@ -2,79 +2,81 @@ $uniqeid: unique_id();
 
 @font-face {
   font-family: 'GreycliffCF';
-  src: url('/public/fonts/GreycliffCF-Light.eot?v=#{$uniqeid}');
-  src: url('/public/fonts/GreycliffCF-Light.eot?v=#{$uniqeid}#iefix')
+  src: url('fonts/GreycliffCF-Light.eot?v=#{$uniqeid}');
+  src: url('fonts/GreycliffCF-Light.eot?v=#{$uniqeid}#iefix')
       format('embedded-opentype'),
-    url('/public/fonts/GreycliffCF-Light.woff2?v=#{$uniqeid}') format('woff2'),
-    url('/public/fonts/GreycliffCF-Light.woff?v=#{$uniqeid}') format('woff');
+    url('fonts/GreycliffCF-Light.woff2?v=#{$uniqeid}') format('woff2'),
+    url('fonts/GreycliffCF-Light.woff?v=#{$uniqeid}') format('woff');
   font-weight: 300;
   font-display: swap;
 }
 @font-face {
   font-family: 'GreycliffCF';
-  src: url('/public/fonts/GreycliffCF-Regular.eot?v=#{$uniqeid}');
-  src: url('/public/fonts/GreycliffCF-Regular.eot?v=#{$uniqeid}#iefix')
+  src: url('fonts/GreycliffCF-Regular.eot?v=#{$uniqeid}');
+  src: url('fonts/GreycliffCF-Regular.eot?v=#{$uniqeid}#iefix')
       format('embedded-opentype'),
-    url('/public/fonts/GreycliffCF-Regular.woff2?v=#{$uniqeid}') format('woff2'),
-    url('/public/fonts/GreycliffCF-Regular.woff?v=#{$uniqeid}') format('woff');
+    url('fonts/GreycliffCF-Regular.woff2?v=#{$uniqeid}') format('woff2'),
+    url('fonts/GreycliffCF-Regular.woff?v=#{$uniqeid}') format('woff');
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'GreycliffCF';
-  src: url('/public/fonts/GreycliffCF-Medium.eot?v=#{$uniqeid}');
-  src: url('/public/fonts/GreycliffCF-Medium.eot?v=#{$uniqeid}#iefix')
+  src: url('fonts/GreycliffCF-Medium.eot?v=#{$uniqeid}');
+  src: url('fonts/GreycliffCF-Medium.eot?v=#{$uniqeid}#iefix')
       format('embedded-opentype'),
-    url('/public/fonts/GreycliffCF-Medium.woff2?v=#{$uniqeid}') format('woff2'),
-    url('/public/fonts/GreycliffCF-Medium.woff?v=#{$uniqeid}') format('woff');
+    url('fonts/GreycliffCF-Medium.woff2?v=#{$uniqeid}') format('woff2'),
+    url('fonts/GreycliffCF-Medium.woff?v=#{$uniqeid}') format('woff');
   font-weight: 500;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'GreycliffCF';
-  src: url('/public/fonts/GreycliffCF-DemiBold.eot?v=#{$uniqeid}');
-  src: url('/public/fonts/GreycliffCF-DemiBold.eot?v=#{$uniqeid}#iefix')
+  src: url('fonts/GreycliffCF-DemiBold.eot?v=#{$uniqeid}');
+  src: url('fonts/GreycliffCF-DemiBold.eot?v=#{$uniqeid}#iefix')
       format('embedded-opentype'),
-    url('/public/fonts/GreycliffCF-DemiBold.woff2?v=#{$uniqeid}')
-      format('woff2'),
-    url('/public/fonts/GreycliffCF-DemiBold.woff?v=#{$uniqeid}') format('woff');
+    url('fonts/GreycliffCF-DemiBold.woff2?v=#{$uniqeid}') format('woff2'),
+    url('fonts/GreycliffCF-DemiBold.woff?v=#{$uniqeid}') format('woff');
   font-weight: 600;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'GreycliffCF';
-  src: url('/public/fonts/GreycliffCF-DemiBold.eot?v=#{$uniqeid}');
-  src: url('/public/fonts/GreycliffCF-DemiBold.eot?v=#{$uniqeid}#iefix')
+  src: url('fonts/GreycliffCF-DemiBold.eot?v=#{$uniqeid}');
+  src: url('fonts/GreycliffCF-DemiBold.eot?v=#{$uniqeid}#iefix')
       format('embedded-opentype'),
-    url('/public/fonts/GreycliffCF-DemiBold.woff2?v=#{$uniqeid}')
-      format('woff2'),
-    url('/public/fonts/GreycliffCF-DemiBold.woff?v=#{$uniqeid}') format('woff');
+    url('fonts/GreycliffCF-DemiBold.woff2?v=#{$uniqeid}') format('woff2'),
+    url('fonts/GreycliffCF-DemiBold.woff?v=#{$uniqeid}') format('woff');
   font-weight: bold;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'GreycliffCF';
-  src: url('/public/fonts/GreycliffCF-ExtraBold.eot?v=#{$uniqeid}');
-  src: url('/public/fonts/GreycliffCF-ExtraBold.eot?v=#{$uniqeid}#iefix')
+  src: url('fonts/GreycliffCF-ExtraBold.eot?v=#{$uniqeid}');
+  src: url('fonts/GreycliffCF-ExtraBold.eot?v=#{$uniqeid}#iefix')
       format('embedded-opentype'),
-    url('/public/fonts/GreycliffCF-ExtraBold.woff2?v=#{$uniqeid}')
-      format('woff2'),
-    url('/public/fonts/GreycliffCF-ExtraBold.woff?v=#{$uniqeid}') format('woff');
+    url('fonts/GreycliffCF-ExtraBold.woff2?v=#{$uniqeid}') format('woff2'),
+    url('fonts/GreycliffCF-ExtraBold.woff?v=#{$uniqeid}') format('woff');
   font-weight: 800;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'GreycliffCF';
-  src: url('/public/fonts/GreycliffCF-Heavy.eot?v=#{$uniqeid}');
-  src: url('/public/fonts/GreycliffCF-Heavy.eot?v=#{$uniqeid}#iefix')
+  src: url('fonts/GreycliffCF-Heavy.eot?v=#{$uniqeid}');
+  src: url('fonts/GreycliffCF-Heavy.eot?v=#{$uniqeid}#iefix')
       format('embedded-opentype'),
-    url('/public/fonts/GreycliffCF-Heavy.woff2?v=#{$uniqeid}') format('woff2'),
-    url('/public/fonts/GreycliffCF-Heavy.woff?v=#{$uniqeid}') format('woff');
+    url('fonts/GreycliffCF-Heavy.woff2?v=#{$uniqeid}') format('woff2'),
+    url('fonts/GreycliffCF-Heavy.woff?v=#{$uniqeid}') format('woff');
   font-weight: 900;
   font-display: swap;
+}
+
+@font-face {
+  font-family: 'celly';
+  src: url('fonts/celly.ttf?v=#{$uniqeid}') format('truetype');
 }
