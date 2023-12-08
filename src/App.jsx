@@ -13,7 +13,51 @@ function App() {
         />
       </Container>
       <Container>
-        <ViewImage />
+        <ViewImage
+          classes='view-image__body--small'
+          imgUrl={viewItems.imgSmall}
+        />
+      </Container>
+
+      <Container>
+        <ViewImage
+          classes='view-image__body--small'
+          imgUrl={viewItems.imgSmall}
+          imgDesc='Lorem ipsum dolor sit amet.'
+        />
+      </Container>
+
+      <Container>
+        <ViewImage
+          classes='view-image__body--small'
+          imgUrl={viewItems.imgDownload}
+          imgDesc='Lorem ipsum dolor sit amet.'
+          fileCanDownload={true}
+        />
+      </Container>
+
+      <Container>
+        <ViewImage
+          classes='view-image__body--large'
+          imgUrl={viewItems.imgLarge}
+        />
+      </Container>
+
+      <Container>
+        <ViewImage
+          classes='view-image__body--large'
+          imgUrl={viewItems.imgLarge}
+          imgDesc='Lorem ipsum dolor sit amet.'
+        />
+      </Container>
+
+      <Container>
+        <ViewImage
+          classes='view-image__body--large'
+          imgUrl={viewItems.imgDownload}
+          imgDesc='Lorem ipsum dolor sit amet.'
+          fileCanDownload={true}
+        />
       </Container>
     </div>
   );

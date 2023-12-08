@@ -1,4 +1,49 @@
 .view-image {
-  border: 13px solid #fff;
-  border-radius: 10px;
+  display: flex;
+  &__body {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 13px;
+    width: 386px;
+    margin-right: 10.6px;
+
+    &--small {
+      > figure {
+        height: 206px;
+      }
+    }
+
+    &--large {
+      > figure {
+        height: 357px;
+      }
+    }
+
+    > figure {
+      border-radius: 13px;
+      overflow: hidden;
+
+      > img {
+        border-radius: 13px;
+        width: 100%;
+        display: block;
+        height: 100%;
+      }
+    }
+
+    > p {
+      margin-top: 13px;
+      color: #253342;
+      font-size: 16px;
+    }
+  }
+  .download-file__download {
+    width: 37px;
+    margin-top: 99px;
+
+    > img {
+      width: 100%;
+      display: block;
+    }
+  }
 }

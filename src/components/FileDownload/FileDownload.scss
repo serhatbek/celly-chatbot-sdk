@@ -25,12 +25,22 @@
 
     > figure {
       width: 42.6px;
+
+      > img {
+        width: 100%;
+        display: block;
+      }
     }
 
     #{$self}__download {
       width: 37.3px;
       margin-left: auto;
       position: relative;
+
+      > img {
+        width: 100%;
+        display: block;
+      }
 
       &::before {
         content: '';
