@@ -1,6 +1,7 @@
-import { Container, FileDownload } from './components';
+import { Container, FileDownload, ViewImage } from './components';
 import { downloadItems } from './components/FileDownload/data';
-
+import { viewItems } from './components/ViewImage/data';
+viewItems;
 function App() {
   return (
     <div className='wrapper'>
@@ -11,7 +12,9 @@ function App() {
           fileTitle={downloadItems.text}
         />
       </Container>
-      <Container>hgf</Container>
+      <Container>
+        <ViewImage />
+      </Container>
     </div>
   );
 }
