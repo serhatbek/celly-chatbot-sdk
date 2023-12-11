@@ -38,17 +38,8 @@
       font-weight: 600;
     }
   }
-  .download-file__download {
-    width: 37px;
-    height: 37px;
-    margin-top: 99px;
-    border: none;
-    background: transparent;
-    cursor: pointer;
 
-    > img {
-      width: 100%;
-      display: block;
-    }
+  .download-btn {
+    margin-top: 99px;
   }
 }

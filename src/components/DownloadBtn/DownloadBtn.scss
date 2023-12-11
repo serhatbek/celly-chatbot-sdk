@@ -1,0 +1,12 @@
+.download-btn {
+  width: 37px;
+  height: 37px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  > img {
+    width: 100%;
+    display: block;
+  }
+}
