@@ -35,11 +35,16 @@
       margin-top: 13px;
       color: #253342;
       font-size: 16px;
+      font-weight: 600;
     }
   }
   .download-file__download {
     width: 37px;
+    height: 37px;
     margin-top: 99px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
 
     > img {
       width: 100%;

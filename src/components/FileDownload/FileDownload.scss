@@ -33,9 +33,12 @@
     }
 
     #{$self}__download {
-      width: 37.3px;
+      width: 37px;
       margin-left: auto;
       position: relative;
+      border: none;
+      background: transparent;
+      cursor: pointer;
 
       > img {
         width: 100%;

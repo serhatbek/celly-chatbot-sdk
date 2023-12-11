@@ -30,7 +30,7 @@ function App() {
       <Container>
         <ViewImage
           classes='view-image__body--small'
-          imgUrl={viewItems.imgDownload}
+          imgUrl={viewItems.imgSmall}
           imgDesc='Lorem ipsum dolor sit amet.'
           fileCanDownload={true}
         />
@@ -54,7 +54,7 @@ function App() {
       <Container>
         <ViewImage
           classes='view-image__body--large'
-          imgUrl={viewItems.imgDownload}
+          imgUrl={viewItems.imgLarge}
           imgDesc='Lorem ipsum dolor sit amet.'
           fileCanDownload={true}
         />
