@@ -1,6 +1,5 @@
 .download-file {
   $self: &;
-  width: 437px;
   border: 10.6px solid #fff;
   border-radius: 6px;
 
@@ -39,35 +38,12 @@
       &::before {
         content: '';
         position: absolute;
-        // height: 42.6px;
+        height: 42.6px;
         width: 1.3px;
         background-color: #e5e9f1;
         left: -10.6px;
         top: -2.6px;
       }
     }
-    // #{$self}__download {
-    //   width: 37px;
-    //   margin-left: auto;
-    //   position: relative;
-    //   border: none;
-    //   background: transparent;
-    //   cursor: pointer;
-
-    //   > img {
-    //     width: 100%;
-    //     display: block;
-    //   }
-
-    //   &::before {
-    //     content: '';
-    //     position: absolute;
-    //     // height: 42.6px;
-    //     width: 1.3px;
-    //     background-color: #e5e9f1;
-    //     left: -10.6px;
-    //     top: -2.6px;
-    //   }
-    // }
   }
 }

@@ -6,7 +6,22 @@
   cursor: pointer;
 
   > img {
-    width: 100%;
+    width: 37px;
+    height: 37px;
     display: block;
+    pointer-events: none;
   }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.downloading-animation {
+  animation: spin 1s linear infinite;
 }

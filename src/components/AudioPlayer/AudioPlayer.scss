@@ -1,0 +1,18 @@
+.audio-player {
+  display: flex;
+  align-items: center;
+  .download-btn {
+    position: relative;
+    margin-left: auto;
+
+    &::before {
+      content: '';
+      position: absolute;
+      height: 62px;
+      width: 1.3px;
+      background-color: #e5e9f1;
+      left: -10.6px;
+      top: -2.6px;
+    }
+  }
+}

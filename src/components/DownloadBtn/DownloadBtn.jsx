@@ -28,6 +28,7 @@ const DownloadBtn = () => {
   if (downloadStatus === 'refresh') {
     downloadIconToShow = downloadRefreshIcon;
   }
+
   return (
     <button className='download-btn' onClick={handleDownload}>
       <img

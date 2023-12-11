@@ -2,7 +2,13 @@ import './FileDownload.scss';
 import { checkFileExtension } from '../../utils/checkExtension';
 import DownloadBtn from '../DownloadBtn/DownloadBtn';
 
-const FileDownload = ({ fileIcon, fileTitle, fileUrl, classes }) => {
+const FileDownload = ({
+  fileIcon,
+  fileTitle,
+  fileUrl,
+  fileCanDownload,
+  classes,
+}) => {
   const trueType = checkFileExtension(fileUrl);
 
   return (
@@ -12,7 +18,7 @@ const FileDownload = ({ fileIcon, fileTitle, fileUrl, classes }) => {
           <img src={fileIcon} />
         </figure>
         <span>{fileTitle}</span>
-        {trueType && <DownloadBtn />}
+        {trueType && fileCanDownload && <DownloadBtn />}
       </div>
     </div>
   );
