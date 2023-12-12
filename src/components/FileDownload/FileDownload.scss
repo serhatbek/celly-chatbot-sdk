@@ -1,7 +1,8 @@
 .download-file {
   $self: &;
-  border: 10.6px solid #fff;
+  background-color: #fff;
   border-radius: 6px;
+  padding: 10px;
 
   > div {
     width: 100%;
@@ -10,7 +11,7 @@
     display: flex;
     align-items: center;
     background-color: #f8f9fb;
-    border-radius: 5.3px;
+    border-radius: 5px;
 
     > span {
       color: #253342;

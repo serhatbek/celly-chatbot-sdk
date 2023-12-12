@@ -23,15 +23,11 @@ function App() {
         />
       </Container>
       <Container>
-        <ViewImage
-          classes='view-image__body--small'
-          imgUrl={viewItems.imgSmall}
-        />
+        <ViewImage imgUrl={viewItems.imgSmall} />
       </Container>
 
       <Container>
         <ViewImage
-          classes='view-image__body--small'
           imgUrl={viewItems.imgSmall}
           imgDesc='Lorem ipsum dolor sit amet.'
         />
@@ -39,7 +35,6 @@ function App() {
 
       <Container>
         <ViewImage
-          classes='view-image__body--small'
           imgUrl={viewItems.imgSmall}
           imgDesc='Lorem ipsum dolor sit amet.'
           fileCanDownload={true}
@@ -47,15 +42,11 @@ function App() {
       </Container>
 
       <Container>
-        <ViewImage
-          classes='view-image__body--large'
-          imgUrl={viewItems.imgLarge}
-        />
+        <ViewImage imgUrl={viewItems.imgLarge} />
       </Container>
 
       <Container>
         <ViewImage
-          classes='view-image__body--large'
           imgUrl={viewItems.imgLarge}
           imgDesc='Lorem ipsum dolor sit amet.'
         />
@@ -63,7 +54,6 @@ function App() {
 
       <Container>
         <ViewImage
-          classes='view-image__body--large'
           imgUrl={viewItems.imgLarge}
           imgDesc='Lorem ipsum dolor sit amet.'
           fileCanDownload={true}
@@ -71,11 +61,11 @@ function App() {
       </Container>
 
       <Container>
-        <AudioPlayer />
+        <AudioPlayer audioFile={audioItems.sonicTheme} />
       </Container>
 
       <Container>
-        <AudioPlayer fileCanDownload={true} />
+        <AudioPlayer audioFile={audioItems.sonicTheme} fileCanDownload={true} />
       </Container>
     </div>
   );
