@@ -4,6 +4,13 @@ export const userInfoItems = {
   icon: '../../../public/images/icons/user@2x.png',
 };
 
+export const wideBoxItems = {
+  titleOne: 'Lorem Ipsum Dolor',
+  textOne: 'Lorem Ipsum',
+  titleTwo: 'Lorem Ipsum',
+  textTwo: 'Lorem ',
+};
+
 export const infoBoxItems = [
   {
     icon: '../../../public/images/icons/mobile@2x.png',

@@ -1,9 +1,9 @@
 import InfoBox from './InfoBox/InfoBox';
+import InfoBoxWide from './InfoBoxWide/InfoBoxWide';
 import './UserProfile.scss';
-import { infoBoxItems } from './data';
+import { infoBoxItems, wideBoxItems } from './data';
 
 const UserProfile = ({ userIcon, userName, userPhone }) => {
-  console.log(infoBoxItems);
   return (
     <div className='user-info'>
       <div className='user-info__head'>
@@ -17,6 +17,12 @@ const UserProfile = ({ userIcon, userName, userPhone }) => {
       </div>
 
       <div className='user-info__body'>
+        <InfoBoxWide
+          titleOne={wideBoxItems.titleOne}
+          textOne={wideBoxItems.textOne}
+          titleTwo={wideBoxItems.titleTwo}
+          textTwo={wideBoxItems.textTwo}
+        />
         <div>
           {infoBoxItems.map((item, index) => (
             <InfoBox
