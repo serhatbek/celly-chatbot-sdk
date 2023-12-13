@@ -4,7 +4,6 @@
   width: 100%;
   margin: 0 auto;
   padding: 32px 20px 0 20px;
-  height: 500px;
 
   @media screen and (max-width: 480px) {
     @include imageCacheBust('../../../../public/images/celly-bg@2x.png');
@@ -13,5 +12,6 @@
     background-size: cover;
     padding: 22px 16px 0 16px;
     margin-bottom: 20px;
+    height: 500px;
   }
 }

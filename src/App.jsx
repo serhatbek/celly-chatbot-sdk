@@ -1,6 +1,13 @@
-import { AudioPlayer, Container, FileDownload, ViewImage } from './components';
+import {
+  AudioPlayer,
+  Container,
+  FileDownload,
+  UserProfile,
+  ViewImage,
+} from './components';
 import { audioItems } from './components/AudioPlayer/data';
 import { downloadItems } from './components/FileDownload/data';
+import { userInfoItems } from './components/UserProfile/data';
 import { viewItems } from './components/ViewImage/data';
 
 function App() {
@@ -66,6 +73,14 @@ function App() {
 
       <Container>
         <AudioPlayer audioFile={audioItems.sonicTheme} fileCanDownload={true} />
+      </Container>
+
+      <Container>
+        <UserProfile
+          userIcon={userInfoItems.icon}
+          userName={userInfoItems.name}
+          userPhone={userInfoItems.number}
+        />
       </Container>
     </div>
   );

@@ -1,0 +1,38 @@
+.user-info {
+  border-radius: 13px;
+  overflow: hidden;
+
+  &__head {
+    background-color: #3753d5;
+    padding: 13px 12px 10px 12px;
+    display: flex;
+
+    > figure {
+      width: 42px;
+      height: 42px;
+      margin-right: 16px;
+
+      > img {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    > div {
+      color: #fff;
+      font-family: 'GreycliffCF', sans-serif;
+      p {
+        font-weight: 700;
+        font-size: 21px;
+      }
+
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__body {
+    background-color: #fff;
+  }
+}
