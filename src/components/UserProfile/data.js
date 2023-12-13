@@ -5,10 +5,10 @@ export const userInfoItems = {
 };
 
 export const wideBoxItems = {
-  titleOne: 'Lorem Ipsum Dolor',
-  textOne: 'Lorem Ipsum',
-  titleTwo: 'Lorem Ipsum',
-  textTwo: 'Lorem ',
+  titleOne: 'Hattın Abonelik Yaşı',
+  textOne: '3 Yıl 7 Ay',
+  titleTwo: 'Dil Tercihi',
+  textTwo: 'Türkçe',
 };
 
 export const infoBoxItems = [
@@ -31,5 +31,25 @@ export const infoBoxItems = [
     icon: '../../../public/images/icons/package@2x.png',
     title: 'Segment/Kulüp',
     text: 'Platinium',
+  },
+];
+
+export const wideBoxItems2 = {
+  titleOne: 'Lorem Ipsum Dolor',
+  textOne: 'Lorem Ipsum',
+  titleTwo: 'Lorem Ipsum',
+  textTwo: 'Lorem ',
+};
+
+export const infoBoxItems2 = [
+  {
+    icon: '../../../public/images/icons/info@2x.png',
+    title: 'Hat Tipi',
+    text: 'Faturalı',
+  },
+  {
+    icon: '../../../public/images/icons/info@2x.png',
+    title: 'Ödenmemiş Fatura',
+    text: 'Yok',
   },
 ];

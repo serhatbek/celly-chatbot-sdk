@@ -1,7 +1,12 @@
 import InfoBox from './InfoBox/InfoBox';
 import InfoBoxWide from './InfoBoxWide/InfoBoxWide';
 import './UserProfile.scss';
-import { infoBoxItems, wideBoxItems } from './data';
+import {
+  infoBoxItems,
+  infoBoxItems2,
+  wideBoxItems,
+  wideBoxItems2,
+} from './data';
 
 const UserProfile = ({ userIcon, userName, userPhone }) => {
   return (
@@ -23,8 +28,27 @@ const UserProfile = ({ userIcon, userName, userPhone }) => {
           titleTwo={wideBoxItems.titleTwo}
           textTwo={wideBoxItems.textTwo}
         />
-        <div>
+
+        <div className='box'>
           {infoBoxItems.map((item, index) => (
+            <InfoBox
+              key={index}
+              infoIcon={item.icon}
+              infoTitle={item.title}
+              infoText={item.text}
+            />
+          ))}
+        </div>
+
+        <InfoBoxWide
+          titleOne={wideBoxItems2.titleOne}
+          textOne={wideBoxItems2.textOne}
+          titleTwo={wideBoxItems2.titleTwo}
+          textTwo={wideBoxItems2.textTwo}
+        />
+
+        <div className='box'>
+          {infoBoxItems2.map((item, index) => (
             <InfoBox
               key={index}
               infoIcon={item.icon}

@@ -27,7 +27,7 @@
       }
 
       span {
-        font-weight: 600;
+        font-weight: 400;
       }
     }
   }
@@ -35,5 +35,16 @@
   &__body {
     padding: 10px;
     background-color: #fff;
+
+    .box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+    }
+
+    > div:not(:last-child) {
+      margin-bottom: 10px;
+    }
   }
 }
