@@ -147,11 +147,11 @@
   }
 
   .btn-pause audio + .p4-_1og2lwy::before {
-    @include imageCacheBust('../../../../public/images/icons/a-pause.png');
+    @include imageCacheBust('../../../../public/images/icons/btn-pause@2x.png');
   }
 
   .btn-play audio + .p4-_1og2lwy::before {
-    @include imageCacheBust('../../../../public/images/icons/a-play.png');
+    @include imageCacheBust('../../../../public/images/icons/btn-play@2x.png');
   }
 
   .download-btn {

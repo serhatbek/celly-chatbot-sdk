@@ -28,6 +28,7 @@
     "iconfont-maker": "^0.0.7",
     "node-watch-changes": "^2.0.3",
     "sass": "^1.69.5",
+    "video.js": "^8.6.1",
     "vite": "^5.0.0"
   }
 }

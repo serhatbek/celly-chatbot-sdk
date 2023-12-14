@@ -8,8 +8,6 @@ const AudioPlayer = ({ audioFile, fileCanDownload }) => {
   const trueType = checkAudioExtension(audioFile);
   const [audioState, setAudioState] = useState({});
 
-  //   console.log(audioState);
-
   return (
     <div className='audio-player'>
       <div

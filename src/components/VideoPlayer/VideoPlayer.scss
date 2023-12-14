@@ -1,0 +1,147 @@
+@import '../../assets/css/settings/mixins';
+
+.vjs-control-bar {
+  height: 53px !important;
+  border-radius: 8px;
+  max-width: 98%;
+  margin: 0 auto 6px;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.vjs-big-play-button {
+  width: 74px !important;
+  height: 74px !important;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  border: none !important;
+  background-color: transparent !important;
+
+  .vjs-icon-placeholder,
+  .vjs-control-text {
+    display: none;
+  }
+}
+
+.vjs-big-play-button::before {
+  content: '';
+  @include imageCacheBust(
+    '../../../../public/images/icons/btn-play-gray@2x.png'
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 74px;
+  height: 74px;
+}
+
+.vjs-volume-panel,
+.vjs-picture-in-picture-control,
+.vjs-fullscreen-control {
+  .vjs-icon-placeholder {
+    display: none !important;
+  }
+}
+
+.vjs-fullscreen-control {
+  position: absolute !important;
+  right: 10px !important;
+  width: 26px !important;
+}
+
+.vjs-fullscreen-control::before {
+  content: '';
+  @include imageCacheBust(
+    '../../../../public/images/icons/enlarge-video@2x.png'
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 26px;
+  height: 26px;
+}
+
+.vjs-slider {
+  background-color: #8e9fad !important;
+}
+
+.vjs-play-control {
+  width: 32px !important;
+  height: 32px !important;
+  margin-left: 10px !important;
+  margin-top: 10px !important;
+}
+
+.vjs-play-control .vjs-icon-placeholder:before {
+  content: '' !important;
+  @include imageCacheBust('../../../../public/images/icons/btn-play@2x.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.vjs-play-control.vjs-playing .vjs-icon-placeholder:before {
+  content: '';
+  @include imageCacheBust('../../../../public/images/icons/btn-pause@2x.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.vjs-volume-panel {
+  display: none !important;
+}
+
+.vjs-play-progress {
+  background-color: #3753d5 !important;
+}
+
+.vjs-play-progress:before {
+  content: '' !important;
+  width: 16px;
+  height: 16px;
+  background-color: #3753d5 !important;
+  border-radius: 50% !important;
+  top: 50% !important;
+  transform: translate(0%, -50%) !important;
+}
+
+.vjs-progress-control {
+  margin-left: 58px !important;
+  margin-right: 42px !important;
+}
+
+.vjs-time-control {
+  position: absolute;
+  left: 64px;
+}
+
+.vjs-remaining-time {
+  position: absolute !important;
+  font-size: 14px !important;
+  color: #8e9fad !important;
+  left: 46px !important;
+  top: 50% !important;
+  transform: translate(0, -40%) !important;
+
+  span[aria-hidden='true'] {
+    display: none !important;
+  }
+}
+
+.vjs-live-control.vjs-control.vjs-hidden,
+.vjs-picture-in-picture-control,
+.video-js:not(.vjs-live) .vjs-live-control {
+  display: none !important;
+}

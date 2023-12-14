@@ -27,3 +27,14 @@ export const checkAudioExtension = (url) => {
   const trueType = allowedExtensions.includes(`.${extension}`);
   return trueType;
 };
+
+export const checkVideoExtension = (url) => {
+  if (!url || typeof url !== 'string') {
+    return false;
+  }
+
+  const extension = url.split('.').pop().toLowerCase();
+  const allowedExtensions = ['.mp4'];
+  const trueType = allowedExtensions.includes(`.${extension}`);
+  return trueType;
+};
